@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Home from './pages/Home';
+
 import './styles/global.scss';
 
 export function App() {
-  return <h1>Hello ReactJS!!!</h1>
+  return <Home />
 }
