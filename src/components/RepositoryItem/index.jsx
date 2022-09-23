@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function RepositoryItem({ title }) {
+export default function RepositoryItem(props) {
   return (
     <li>
-      <strong>{title}</strong>
+      <strong>{props.repository?.name ?? 'Default'}</strong>
       <p>Forms in ReactJS</p>
 
-      <a href="#">Acessar Repositorio</a>
+      <a href={props.repository?.link}>Acessar Repositorio</a>
     </li>
   );
 }
