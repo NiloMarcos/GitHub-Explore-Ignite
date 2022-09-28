@@ -1,14 +1,22 @@
 section.repository-list {
-  margin: 40px;
-  
+  background-color: #fafafa;
+
   h1 {
     margin-bottom: 16px;
+    padding: 48px 48px 0 48px;
+    color: #383838;
+    font-style: italic;
   }
 
   ul {
     list-style: none;
+    padding: 48px;
 
     li {
+      background-color: #e5e5e5 ;
+      padding: 20px;
+      border-radius: 6px;
+
       & + li {
         margin-top:  20px;
       }
@@ -23,7 +31,7 @@ section.repository-list {
         text-decoration: none;
         display: inline-block;
         margin-top: 16px;
-        color: #8257e6;
+        color: #333533;
       }
     }
   }
